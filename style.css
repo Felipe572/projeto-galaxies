@@ -59,3 +59,18 @@ main {
     font-weight: 600;
     padding: 24px 32px 32px;
 }
+
+footer {
+    color: #E1E1E6;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #02799D;
+}
+
+a:hover {
+    font-weight: 900;
+}
