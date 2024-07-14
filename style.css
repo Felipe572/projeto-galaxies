@@ -33,10 +33,12 @@ header > p {
 
 main {
     margin-top: 64px;
+    margin-bottom: 64px;
     display: grid;
     grid-template-columns: repeat(3, 370px);
     place-content: center;
     gap: 48px 60px;  
+
 }
 
 .card {
@@ -62,8 +64,9 @@ main {
 
 footer {
     color: #E1E1E6;
-    margin-top: 50px;
+    margin: auto;
     font-size: 20px;
+
 }
 
 a {
