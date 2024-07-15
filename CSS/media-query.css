@@ -37,6 +37,10 @@
         grid-template-columns: repeat(1, 340px);
         place-content: center;
         gap: 48px 60px;  
-    
+    }
+
+    footer {
+        margin: auto;
+        width: 34.0rem;
     }
 }
