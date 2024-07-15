@@ -8,36 +8,40 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 62.5%;
+}
+
 body {
     font-family: "Mulish", sans-serif;
     background: #121214;
     display: grid;
     place-content: center;
 
-    padding: 72px 104px;
+    padding: 7.2rem 10.rem;
 }
 
 header > h1 {
     color: #02799D;
     font-weight: 900;
-    font-size: 56px;
-    line-height: 72px;
-    margin-bottom: 8px;
+    font-size: 5.6rem;
+    line-height: 7.2rem;
+    margin-bottom: 0.8rem;
 }
 
 header > p {
     color: #E1E1E6;
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 600;
 }
 
 main {
-    margin-top: 64px;
-    margin-bottom: 64px;
+    margin-top: 6.4rem;
+    margin-bottom: 6.4rem;
     display: grid;
     grid-template-columns: repeat(3, 370px);
     place-content: center;
-    gap: 48px 60px;  
+    gap: 4.8rem 6.0rem;  
 
 }
 
@@ -50,22 +54,22 @@ main {
 
 .card > h2 {
     color: #E1E1E6;
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 900;
-    padding: 24px 32px 0;
+    padding: 2.4rem 3.2rem 0;
 }
 
 .card > p {
     color: #c4c4cc;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
-    padding: 24px 32px 32px;
+    padding: 2.4rem 3.2rem 3.2rem;
 }
 
 footer {
     color: #E1E1E6;
     margin: auto;
-    font-size: 20px;
+    font-size: 2rem;
 
 }
 
